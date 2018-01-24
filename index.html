@@ -8,6 +8,8 @@
 
     <!-- CSS  -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
     <!-- <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" /> -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
 </head>
@@ -16,11 +18,40 @@
     <nav class="black" role="navigation">
         <div class="nav-wrapper container">
             <a id="logo-container" href="#" class="brand-logo"></a>
-            <ul class="right hide-on-med-and-down">
-                <li><a href="mailto:robrollner@gmail.com">Email Me</a></li>
+            <ul class="hide-on-med-and-down">
+                <!-- <li>
+                    <a class="indigo-text text-darken-1" href="mailto:robrollner@gmail.com">Email Me</a>
+                </li> -->
+                <li>
+                    <a class="indigo-text text-darken-1" href="https://cryptoquarium.herokuapp.com/">
+                        Cryptoquarium
+                    </a>
+                </li>
+                <li>
+                    <a class="indigo-text text-darken-1" href="https://github.com/robrollner/memory">
+                        Simpsons Memory Game
+                    </a>
+                </li>
+                <li>
+                    <a class="indigo-text text-darken-1" href="https://robrollner.github.io/bamazon/">
+                        Bamazon Node App
+                    </a>
+                </li>
+                <li>
+                    <a class="indigo-text text-darken-1" href="https://github.com/CheekyMonkeyAcademy/CheekyMonkeyAcademy">
+                        Cheeky Monkey Academy
+                    </a>
+                </li>
+                <li>
+                    <a class="indigo-text text-darken-1" href="https://vast-plateau-60506.herokuapp.com/">
+                        Writing Academy
+                    </a>
+                </li>
+                </ul>
+                
             </ul>
 
-            <ul id="nav-mobile" class="side-nav grey lighten-1">
+            <ul id="nav-mobile" class="side-nav black">
                 <li><a class="indigo-text text-darken-1 collection" href="mailto:robrollner@gmail.com">Email</a></li>
                 <li>
                     <a class="indigo-text text-darken-1 collection" href="https://cryptoquarium.herokuapp.com/">
@@ -56,14 +87,12 @@
         <div class="section no-pad-bot">
             <div class="container">
                 <br><br>
-                <h1 class="header center indigo-text text-darken-1">Robert Rollner</h1>
+                <h1 class="header center white-text">Robert Rollner</h1>
                 <div class="row center">
-                    <h5 class="header col s12 dark">An opportunistic full stack web developer eager to learn new languages and create new exciting projects</h5>
+                    <h5 class="header col s12 white-text">An opportunistic full stack web developer eager to learn new languages and create new exciting projects</h5>
                 </div>
                 <div class="row center">
-                    <div class="fixed-action-btn horizontal">
-                        <!-- <a class="btn-floating btn-large red"> -->
-                            <!-- <i class="large material-icons">fingerprint</i> -->
+                    <div class="fixed-action-btn horizontal">                        
                         <ul>
                             <li><a class="btn-floating purple darken-4" href="https://robrollner.github.io/bamazon/"><i class="material-icons">flare</i></a></li>
                             <li><a class="btn-floating pink darken-4" href="https://github.com/robrollner/memory"><i class="material-icons">flash_on</i></a></li>
@@ -71,8 +100,9 @@
                             <li><a class="btn-floating blue" href="https://github.com/CheekyMonkeyAcademy"><i class="material-icons">attach_file</i></a></li>
                         </ul>
                     </div>
-                    <a href="https://www.linkedin.com/in/robert-rollner/" id="download-button" class="btn-large waves-effect waves-light indigo darken-1 z-depth-5">My linkedin</a>
-                    <a href="https://github.com/robrollner" id="download-button" class="btn-large waves-effect waves-light indigo darken-1 z-depth-5">My Github</a>
+                    <a href="https://www.linkedin.com/in/robert-rollner/" id="download-button" class="btn-large waves-effect waves-light indigo darken-1 z-depth-5"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                    <a href="https://github.com/robrollner" id="download-button" class="btn-large waves-effect waves-light indigo darken-1 z-depth-5"><i class="fa fa-github-square" aria-hidden="true"></i></a>
+                    <a href="mailto:robrollner@gmail.com" id="download-button" class="btn-large waves-effect waves-light indigo darken-1 z-depth-5"><i class="fa fa-envelope-open" aria-hidden="true"></i></a>
                 </div>
                 <br><br>
 
@@ -92,7 +122,7 @@
                         <h2 class="center indigo-text"><i class="material-icons">person_pin</i></h2>
                         <h5 class="center blue-grey-text darken-4">Quick Learner</h5>
 
-                        <p class="darken">I am currently enrolled in the full stack coding bootcamp at the University of Denver. I have been studying a multitude of languages including HTML, CSS, jQuery, and various JavaScript libraries. I will be graduated the course with a certificate in January 2018.</p>
+                        <p class="darken">I have completed the full stack coding bootcamp at the University of Denver. I have been studying a multitude of languages including HTML, CSS, jQuery, and various JavaScript libraries. I graduated from the course with a certificate in January 2018.</p>
                     </div>
                 </div>
 
@@ -129,18 +159,26 @@
         <div class="section">
 
             <div class="row">
-                <div class="col s12 center z-depth-5 white">
+                <div class="col s12 center z-depth-5" id="lang">
                     <h3><i class="mdi-content-send indigo-text"></i></h3>
-                    <h4>Languages Learned</h4>
-                    <ol class="left-align deep-orange-text darken-4">HTML</ol>
-                    <ol class="center-align deep-orange-text darken-4">CSS</ol>
-                    <ol class="right-align deep-orange-text darken-4">JavaScript</ol>
-                    <ol class="left-align deep-orange-text darken-4">jQuery</ol>
-                    <ol class="center-align deep-orange-text darken-4">Express.js</ol>
-                    <ol class="right-align deep-orange-text darken-4">Node.js</ol>
-                    <ol class="left-align deep-orange-text darken-4">MySQL</ol>
-                    <ol class="center-align deep-orange-text darken-4">MongoDB</ol>
-                    <ol class="right-align deep-orange-text darken-4">passport.js</ol>
+                    <h4 class="center-align white-text">Languages Learned</h4>
+                    <ul>
+                        <li class="left-align white-text">HTML</li>
+                        <li class="center-align white-text">CSS</li>
+                        <li class="right-align white-text">JavaScript</li>
+                        <li class="left-align white-text">React.js</li>
+                        <li class="center-align white-text">Express.js</li>
+                        <li class="right-align white-text">Node.js</li>
+                        <li class="left-align white-text">MySQL</li>
+                        <li class="center-align white-text">MongoDB</li>
+                        <li class="right-align white-text">Passport.js</li>
+                        <li class="left-align white-text">AJAX</li>
+                        <li class="center-align white-text">API's</li>
+                        <li class="right-align white-text">Handlebars.js</li>
+                        <li class="left-align white-text">jQuery</li>
+                        <li class="center-align white-text">JSON</li>
+                        <li class="right-align white-text">NPM</li>                        
+                    </ul>
                 </div>
             </div>
 
